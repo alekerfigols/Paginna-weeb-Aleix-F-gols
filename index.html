@@ -51,6 +51,28 @@
             padding: 20px;
             border-radius: 6px;
         }
+        .video-section {
+            margin-bottom: 40px;
+        }
+        .video-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
         footer {
             background: #263238;
             color: #fff;
@@ -70,6 +92,15 @@
         <a href="#contacte">Contacte</a>
     </nav>
     <div class="container">
+        <section class="video-section">
+            <h2>Video promocional</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="invideo-ai-1080 Tu coche como nuevo en 30s 2026-04-13.mp4" type="video/mp4">
+                    El teu navegador no suporta la reproducció de vídeo HTML5.
+                </video>
+            </div>
+        </section>
         <section id="serveis">
             <h2>Serveis</h2>
             <div class="services">
